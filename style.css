@@ -1,0 +1,175 @@
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: bookman-jf-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(220, 220, 220);
+}
+
+img {
+    width: 100%;
+    position: absolute;
+    align-items: center;
+}
+
+.gap {
+    height: 2px;
+}
+
+.special {
+    width: 100%;
+    color: black;
+    opacity: 1;
+}
+
+.cover {
+    opacity: 0.4;
+}
+
+.contents {
+    color: black;
+    font-size: 3vh;
+    opacity: 1;
+    text-decoration: underline;
+    margin: 0;
+
+}
+
+.toc {
+    position: absolute;
+    right: 4%;
+    bottom: 2vw;
+    line-height: 5vh;
+    text-align: right;
+}
+
+.mini {
+    font-size: 5vh;
+    margin: 0px;
+    font-style: normal;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.intro {
+    font-family: bookman-jf-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-weight: 600;
+    font-size: 10vh;
+    z-index: 100;
+    position: absolute;
+    left: 2%;
+    top: 1vw;
+    text-shadow: 1px 1px #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+
+.link {
+    font-size: 1.5vw;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 1px 1px #000000;
+    text-decoration: underline;
+    font-family: bookman-jf-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    position: absolute;
+    left: 2%;
+    bottom: 1vw;
+}
+
+.next {
+    position: absolute;
+    right: 2%;
+    top: 1vw;
+    z-index: 100;
+    font-family: bookman-jf-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.back {
+    position: absolute;
+    left: 2%;
+    top: 1vw;
+    z-index: 100;
+}
+
+.home {
+    position: absolute;
+    right: 2%;
+    bottom: 0vw;
+    z-index: 100;
+    font-family: bookman-jf-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    font-size: 10vh;
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
+
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        height: 100vh;
+        width: auto;
+
+        position: absolute;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .link {
+        font-size: 4vw;
+        color: white;
+        opacity: 0.6;
+        text-shadow: 1px 1px #000000;
+        text-decoration: underline;
+        font-family: bookman-jf-pro, serif;
+        font-weight: 400;
+
+
+        font-style: italic;
+        position: absolute;
+        left: 2%;
+        bottom: 1vw;
+    }
+
+    a {
+        font-family: bookman-jf-pro, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 5vh;
+        color: white;
+        opacity: 0.6;
+        text-decoration: none;
+        width: 50%;
+    }
+    .toc {
+    position: absolute;
+    bottom: 2vw;
+    text-align: right;
+    font-size:2vw;
+    word-spacing:1vw;
+    width:60%;
+}
+.intro{
+	font-size:12vw;
+}
+.mini{font-size:8vw;
+}
+}
